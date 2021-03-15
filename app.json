@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/index/index",
+    "pages/demo01/Tow"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fef",
+    "navigationBarTitleText": "硬核游戏",
+    "backgroundColor": "#ee34",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
