@@ -1,17 +1,32 @@
 {
   "pages": [
-    "pages/my/my",
     "pages/index/index",
+    "pages/my/my",
     "pages/demo01/Tow"
     
   ],
+  "声明":"window 是对小程序的窗口基础设置",
+  "entryPagePath":"pages/index/index",
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fef",
-    "navigationBarTitleText": "硬核游戏",
-    "backgroundColor": "#ee34",
+    "navigationBarBackgroundColor": "#ff8899",
+    "navigationBarTitleText": "登陆",
+    "backgroundColor": "#0034",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath":"pages/my/my",
+        "text": "我的"
+      }
+
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
