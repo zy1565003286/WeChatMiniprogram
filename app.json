@@ -9,21 +9,27 @@
   "entryPagePath":"pages/index/index",
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ff8899",
-    "navigationBarTitleText": "登陆",
+    "navigationBarBackgroundColor": "#0099ff",
+    "navigationBarTitleText": "银河课表",
     "backgroundColor": "#0034",
     "navigationBarTextStyle": "black",
     "enablePullDownRefresh": true
   },
   "tabBar": {
+    "borderStyle":"black",
+    "selectedColor":"#ff00000",
     "list":[
       {
         "pagePath":"pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath":"picture/首页.png",
+        "selectedIconPath": "picture/选中.png"
       },
       {
         "pagePath":"pages/my/my",
-        "text": "我的"
+        "text": "我的",
+        "iconPath":"picture/用户.png",
+        "selectedIconPath": "picture/选中.png"
       }
 
     ]
